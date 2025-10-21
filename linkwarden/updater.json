@@ -1,8 +1,0 @@
-{
-  "last_update": "12-04-2025",
-  "repository": "alexbelgium/hassio-addons",
-  "slug": "linkwarden",
-  "source": "github",
-  "upstream_repo": "linkwarden/linkwarden",
-  "upstream_version": "2.10.0"
-}
