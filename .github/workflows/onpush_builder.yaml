@@ -46,7 +46,7 @@ jobs:
           # Sort yaml
           sort -t= ".github/paths-filter.yml" -o ".github/paths-filter.yml"
       - name: Commit if needed
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         with:
           commit: -u
           message: "GitHub bot : scripts executable"
@@ -93,7 +93,7 @@ jobs:
         env: 
           path: "./${{ matrix.addon }}"
       - name: Commit if needed
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         with:
           commit: -u
           message: "GitHub bot : scripts executable"
@@ -245,7 +245,7 @@ jobs:
         env: 
           path: "./${{ matrix.addon }}"
       - name: Commit if needed
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         with:
           commit: -u
           message: "GitHub bot : changelog"
